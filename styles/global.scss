@@ -28,15 +28,39 @@
   .sub-heading {
     display: flex;
     justify-content: center;
+  
     .titleSm {
       margin: 0 $xl-1;
+      animation: pulse 1.5s infinite;
+    
+      @keyframes pulse {
+        0%, 100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1); // Böyüyüb kiçilmə
+        }
+      }
     }
+    
+  
     span {
       font-size: $xll;
       line-height: 0;
       color: $green;
+      animation: bounceText 2s ease-in-out infinite; // Davamlı animasiya
+  
+      @keyframes bounceText {
+        0%, 100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-5px); // Yüngül tullanma
+        }
+      }
     }
   }
+  
 }
 .hero-sec {
   position: relative;
@@ -56,21 +80,45 @@
 // expertise
 .expertise {
   .card-img {
-    height: 300px;
+    height: 250px;
+    transition: transform 0.5s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1) rotate(3deg); // Kiçik fırlanma effekti ilə böyümə
+    }
   }
 }
 
 //banner
 .banner {
   margin-top: $xll-3;
+  opacity: 0;
+  animation: slideInScale 7.0s ease-out infinite; /* infinite - təkrarlanan animasiya */
+
+  @keyframes slideInScale {
+    0% {
+      opacity: 0;
+      transform: scale(0.8) translateX(-100px);  /* Başlanğıcda kiçik və sola doğru */
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1) translateX(0);  /* Tam görünür və normal ölçüdə */
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.8) translateX(100px);  /* Sona doğru sola gedir və kiçilir */
+    }
+  }
+
   .container {
     border-radius: 50px 0 50px 0;
-    padding: $xll;
+    padding: $xl-6;
     background: rgb(192, 90, 255);
     background: $gradient;
     @include flex(center, space-between, none);
   }
 }
+
 
 //testimonial
 .testimonial {
@@ -79,14 +127,21 @@
   }
   .cards {
     margin-top: $xll;
+    opacity: 1;
+    transform: translateY(0); /* Kart normal vəziyyətdə olacaq */
+  
     p {
       margin-bottom: $xl-3;
       font-size: $xl;
       line-height: $xl-5;
     }
+  
     .image {
       @include flex(center, none, none);
       margin-bottom: $xl-4;
+      opacity: 1;
+      transform: translateX(0); /* Sabit vəziyyətdə qalır */
+      
       .img {
         width: $xll-3;
         height: $xll-3;
@@ -97,21 +152,49 @@
           border-radius: 50%;
         }
       }
+  
       .img-text {
         margin-left: $xl-3;
+        opacity: 1;
+        transform: translateX(0); /* Sabit vəziyyətdə qalır */
+  
         h3 {
           font-size: $xl-2;
           margin-bottom: $s;
+          opacity: 0;
+          transform: translateX(-30px); /* Başlanğıcda gizli və sola doğru */
+          animation: slideInOut 3s ease-in-out infinite alternate; /* Təkrarlanan animasiya */
         }
+        
         span {
           color: rgba($white, 0.5);
           text-transform: uppercase;
           font-size: $sm;
           letter-spacing: 3px;
+          opacity: 0;
+          transform: translateX(30px); /* Başlanğıcda gizli və sağa doğru */
+          animation: slideInOut 3s ease-in-out infinite alternate; /* Təkrarlanan animasiya */
         }
       }
     }
   }
+  
+  @keyframes slideInOut {
+    0% {
+      opacity: 0;
+      transform: translateX(30px); /* Sağ tərəfdən gəlir */
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0); /* Normal vəziyyətə gəlir */
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(-30px); /* Sol tərəfə doğru gedir */
+    }
+  }
+  
+  
 }
 
 //showcase

@@ -12,13 +12,15 @@ const Hero = () => {
     <>
       <section className='hero'>
         <div className='container'>
-          <TitleLogo title='techub' caption='⭐' className='logobg' />
-          <h1 className='hero-title'>WE BUILD DIGITAL EXPERIENCES</h1>
+          <h1 className='hero-title'>Rəqəmsal gələcəyinizi bizimlə qurun</h1>
 
           <div className='sub-heading'>
-            <TitleSm title='WEBSITES' /> <span>.</span>
-            <TitleSm title='BRANDING' /> <span>.</span>
-            <TitleSm title='DIGITAL MARKETING' />
+            <TitleSm title='Veb saytlar' /> <span>.</span>
+            <TitleSm title='Mobil tətbiqlər' /> <span>.</span>
+            <TitleSm title='İT xidmətləri' /><span>.</span>
+            <TitleSm title='Konsultasiya' /><span>.</span>
+            <TitleSm title='UX/UI xidmətləri' /><span>.</span>
+            <TitleSm title='SEO' />
           </div>
         </div>
       </section>
