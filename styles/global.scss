@@ -199,13 +199,56 @@
 
 //showcase
 .showcase {
+  position: relative;
+  overflow: hidden;
+
   .card-img {
     height: 400px;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
+    filter: grayscale(100%); /* Başlanğıcda şəkli boz tonlarda göstəririk */
+    
+    &:hover {
+      transform: scale(1.05) rotate(3deg); /* Hover zamanı böyümə və döndürmə */
+      opacity: 0.9; /* Hover zamanı şəffaflıq azaldılır */
+      filter: grayscale(0%) brightness(1.2); /* Parıltılı və rəngli görsənməsini təmin edirik */
+    }
   }
+
   .links {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
     @include flex(none, flex-end, none);
+    opacity: 0;
+    transform: translateY(30px); /* Linklər aşağıdan gəlir */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+
+    a {
+      padding: 12px 24px;
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 25px;
+      color: #333;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      
+      &:hover {
+        background-color: rgba(255, 255, 255, 1);
+        transform: translateY(-5px); /* Linkin hover zamanı yuxarı doğru hərəkət etməsi */
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Daha böyük kölgə effekti */
+      }
+    }
+  }
+
+  &:hover .links {
+    opacity: 1; /* Hover zamanı linklər görünür olacaq */
+    transform: translateY(0); /* Linklər öz normal yerinə gələcək */
   }
 }
+
 
 //brand
 .brand-content {
@@ -222,17 +265,22 @@
 //blog-card
 .blog-card {
   .card {
-    @include flex(none, space-between, none);
-    .card-img {
-      width: 40%;
-      height: 250px;
+    transition: transform 0.3s ease-out;
+    
+    &:hover {
+      animation: shake 0.5s ease-in-out;
     }
-    .card-details {
-      width: 55%;
-      padding: $xll 0;
+    
+    @keyframes shake {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-10px); }
+      50% { transform: translateX(10px); }
+      75% { transform: translateX(-10px); }
+      100% { transform: translateX(0); }
     }
   }
 }
+
 
 // footer
 footer {

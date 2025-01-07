@@ -18,29 +18,50 @@ const SinglePost = () => {
       <section className='post-details bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='TIPS & TRICKS / JANUARY 12, 2022' /> <br />
+
             <br />
             <Title title={post?.title} className='title-bg' />
             <div className='img py'>
               <img src={post?.cover} alt={post?.title} width='100%' height='100%' className='round' />
             </div>
             <div className='desc'>
-              <TitleSm title='Phasellus at magna - elit tristique lacinia. Integer a justo vitae arcu fermentum consequat.' />
-              <p className='desc-p'> Nulla iaculis convallis fermentum. Suspendisse eget elit mauris. Phasellus velit nisi, lobortis quis nisi et, venenatis finibus velit. Integer non nibh eget arcu malesuada ullamcorper. Quisque congue ante in consequat auctor. Morbi ut accumsan eros. Mauris semper suscipit mattis. Cras pellentesque a urna ac dictum. Pellentesque blandit, sapien vel faucibus accumsan, ante dui imperdiet nisi, ut tincidunt nulla tortor nec purus.</p>
-              <p className='desc-p'>Suspendisse eget elit mauris. Phasellus velit nisi, lobortis quis nisi et, venenatis finibus velit. Integer non nibh eget arcu malesuada ullamcorper.</p>
-              <p className='desc-p'>Quisque congue ante in consequat auctor. Morbi ut accumsan eros. Mauris semper suscipit mattis. Cras pellentesque a urna ac dictum. Pellentesque blandit, sapien vel faucibus accumsan, ante dui imperdiet nisi, ut tincidunt nulla tortor nec purus.</p>
+              <TitleSm title='IT (İnformasiya Texnologiyaları) Konsaltinqinin faydaları müasir biznes mühitində əhəmiyyətli təsir göstərir. Aşağıda IT konsaltinq xidmətlərinin əsas faydalarını təqdim edirəm:' />
+              <p className='desc-p'>
+                1. Strateji Planlaşdırma və Yönləndirmə :
+                IT mütəxəssisləri biznes ehtiyaclarınıza uyğun texnologiya strategiyaları təklif edir.
+                Resursların daha effektiv istifadəsi üçün prosesləri optimallaşdırır.</p>
+              <p className='desc-p'>2. Maliyetlərin Azaldılması  :
+                Daha uyğun və sərfəli texnoloji həllər təklif edərək xərclərinizi optimallaşdırır.
+                İT infrastrukturunda lazımsız sistemləri aradan qaldırır. </p>
+              <p className='desc-p'>3. Yeniliklərin və Texnoloji Trendlərin Tətbiqi :
+                Ən yeni texnologiya həllərini tətbiq edir.
+                Rəqabətdə üstünlük əldə etməyinizə kömək edir. </p>
+
             </div>
           </div>
           <Banner />
 
           <div className='heading-title'>
             <div className='desc'>
-              <TitleSm title='Integer a justo vitae arcu fermentum...' />
+              <TitleSm title=' IT Konsaltinqi vasitəsilə İT Layihələrin Uğurla İdarə Edilməsi' />
 
-              <p className='desc-p'> Phasellus nec tempor neque. In nec finibus lorem, in aliquet risus. Proin elit elit, cursus vel vulputate at, volutpat quis metus. Praesent at blandit tellus.</p>
-              <p className='desc-p'>Morbi finibus velit erat, a pulvinar lacus mollis sit amet. Nulla iaculis convallis fermentum. Suspendisse eget elit mauris. Phasellus velit nisi, lobortis quis nisi et, venenatis finibus velit. Integer non nibh eget arcu malesuada ullamcorper! Quisque congue ante in consequat auctor. Morbi ut accumsan eros. Mauris semper suscipit mattis. Cras pellentesque a urna ac dictum. Pellentesque blandit, sapien vel faucibus accumsan, ante dui imperdiet nisi, ut tincidunt nulla tortor nec purus.</p>
-              <p className='desc-p'>Suspendisse eget elit mauris. Phasellus velit nisi, lobortis quis nisi et, venenatis finibus velit. Integer non nibh eget arcu malesuada ullamcorper.</p>
-              <p className='desc-p'>Quisque congue ante in consequat auctor. Morbi ut accumsan eros. Mauris semper suscipit mattis. Cras pellentesque a urna ac dictum. Pellentesque blandit, sapien vel faucibus accumsan, ante dui imperdiet nisi, ut tincidunt nulla tortor nec purus.</p>
+              <p className='desc-p'>Müasir bizneslərdə texnologiya layihələrinin effektiv idarə olunmasının yollarını izah edir. IT konsaltinq, mütəxəssislərin və strateji rəhbərlik yanaşmalarının tətbiqi ilə layihələrin müvəffəqiyyətli icrasını təmin edir.Aşağıda bu mövzuya dair əsas məqamlar yer alır: </p>
+              <p className='desc-p'>1. Layihə İdarəçiliyində IT Konsaltinqin Rolu
+                IT konsaltinq şirkətlərə aşağıdakı yollarla dəstək verir:
+
+                Layihə planlaşdırılması və strukturlaşdırılması: Resursların düzgün bölüşdürülməsi, vaxt cədvəlinin hazırlanması və layihə məqsədlərinin müəyyən edilməsi.
+                Risklərin qiymətləndirilməsi və idarə edilməsi: IT konsaltinq, potensial problemləri əvvəlcədən müəyyən edərək layihənin uğursuzluq ehtimalını azaldır.
+                Tələb olunan texnologiya və alətlərin seçilməsi: İT layihəsi üçün ən uyğun həllərin və platformaların təklif edilməsi.</p>
+              <p className='desc-p'>2. Maliyetlərin Optimallaşdırılması
+                IT konsaltinq mütəxəssisləri layihə üçün lazımi xərcləri azaltmağa kömək edir:
+
+                Effektiv resurs istifadəsi: Gərəksiz lisenziyalar və alətlərin istifadəsini azaldır.
+                Aylıq və illik büdcə planları: Düzgün büdcələmə texnologiyaya sərf olunan maliyyəni optimallaşdırır.</p>
+              <p className='desc-p'>  3. Texniki Ekspertiza və Təlim
+                IT konsaltinq xidmətləri vasitəsilə şirkətlər daha təcrübəli mütəxəssislərdən istifadə edərək:
+
+                Ekspert tövsiyələri alır: Bu tövsiyələr ilə doğru qərarlar qəbul edilir.
+                Komanda üçün təlimlər təşkil olunur: Layihə komandası yeni texnologiyalarla təchiz edilir.</p>
             </div>
           </div>
         </div>

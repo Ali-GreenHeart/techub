@@ -48,7 +48,7 @@ const Hero = () => {
       <Brand />
 
       <div className='text-center'>
-        <Title title='Latest news & articles' />
+        <Title title='Ən son xəbərlər və məqalələr' />
       </div>
       <BlogCard />
     </>

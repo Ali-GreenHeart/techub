@@ -144,31 +144,31 @@ export const brand = [
 export const blogdata = [
   {
     id: 1,
-    title: "Ligula vel urna accumsan placerat",
+    title: "IT Konsaltinqin Faydaları ",
     cover: "../images/b1.webp",
-    catgeory: "INDUSTRY",
-    date: "JANUARY 12, 2023",
+    catgeory: "İT",
+    date: "YANVAR 7, 2025",
   },
   {
     id: 2,
-    title: "Don’t underestimate the lorem ipsum dolor amet",
+    title: "UI/UX dizayn nə üçün lazımdır ?",
     cover: "../images/b2.jpg",
-    catgeory: "TIPS & TRICKS",
-    date: "OCTOBER 20, 2023",
+    catgeory: "UI/UX",
+    date: "YANVAR 8, 2025",
   },
   {
     id: 3,
-    title: "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
+    title: "Biznesdə veb sayt anlayışı",
     cover: "../images/b3.jpg",
-    catgeory: "TIPS & TRICKS",
-    date: "OCTOBER 9, 2023",
+    catgeory: "Veb sayt",
+    date: "YANVAR 7, 2025",
   },
   {
     id: 4,
-    title: "What eleifend posuere tincidunt",
+    title: "2024 startap ideyaları",
     cover: "../images/b4.jpg",
-    catgeory: "EVENTS",
-    date: "OCTOBER 8, 2023",
+    catgeory: "STARTAP",
+    date: "YANVAR 8, 2025",
   },
 ]
 export const teamdata = [
