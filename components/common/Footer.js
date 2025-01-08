@@ -1,7 +1,6 @@
 import Link from "next/link"
-import { TitleLogo } from "./Title"
+import { AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 import { BsFacebook } from "react-icons/bs"
-import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 
 const Footer = () => {
   return (
@@ -10,54 +9,54 @@ const Footer = () => {
         <div className='container'>
           <div className='grid-4'>
             <div className='logo'>
-              
+
               <span>
-                Questions? Reach us <br /> Monday – Friday from 9 am to 6 pm
+                Sualınız var ? Əlaqə saxlayın : <br /> Həftə içi (I-V) : 09:00 - 20:00 <br /> Həftə sonu : 11:00 - 18:00
               </span>
               <br />
               <br />
-              <h3>+1 001 234 5678</h3>
+              <h3>+994 70 336 23 22</h3>
               <br />
-              <button className='button-primary'>Request for quote</button>
+              <button className='button-primary'>Qiymət təklifi al</button>
             </div>
             <ul>
-              <h3>COMPANY</h3>
+              <h3>Şirkət</h3>
               <li>
-                <Link href='/'>About agency</Link>
+                <Link href='/'>Haqqımızda</Link>
               </li>
               <li>
-                <Link href='/'>Our team</Link>
+                <Link href='/'>Komanda</Link>
               </li>
               <li>
-                <Link href='/'>Showcase</Link>
+                <Link href='/'>Faktlar</Link>
               </li>
               <li>
-                <Link href='/'>Blog</Link>
+                <Link href='/'>Bloq</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href='/'>Demo design system</Link>
-              </li>
+              </li> */}
               <li>
-                <Link href='/'>Contact</Link>
+                <Link href='/'>Əlaqə</Link>
               </li>
             </ul>
             <ul>
-              <h3>SERVICES</h3>
+              <h3>Xidmətlər</h3>
               <li>
-                <Link href='/'>Web Design & Development</Link>
+                <Link href='/'>Veb sayt & Mobil tətbiq</Link>
               </li>
               <li>
-                <Link href='/'>Branding & Creative Services</Link>
+                <Link href='/'>İT xidmət & SEO</Link>
               </li>
               <li>
-                <Link href='/'>Digital Marketing</Link>
+                <Link href='/'>UX/UI</Link>
               </li>
               <li>
-                <Link href='/'>E-Commerce</Link>
+                <Link href='/'>Konsultasiya</Link>
               </li>
             </ul>
             <ul>
-              <h3>CONNECT</h3>
+              <h3>Sosial şəbəkələrdə izləyin</h3>
               <div className='connect'>
                 <li>
                   <Link href='/'>
@@ -65,12 +64,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href='/'>
-                    <AiFillBehanceCircle size={25} />
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/'>
+                  <Link href='https://www.instagram.com/techubaz/'>
                     <AiFillInstagram size={25} />
                   </Link>
                 </li>
@@ -84,12 +78,7 @@ const Footer = () => {
           </div>
           <div className='legal connect py'>
             <div className='text'>
-              <span>© 2023 THE SEVEN. ALL RIGHTS RESERVED.</span>
-            </div>
-            <div className='connect'>
-              <span>GORKCODER COMPANY</span>
-              <span> &nbsp; | &nbsp; </span>
-              <span>TERMS & CONDITIONS</span>
+              <span>© 2025 Techub Company</span>
             </div>
           </div>
         </div>
