@@ -6,7 +6,7 @@ const team = () => {
   return (
     <>
       <Head>
-        <title>Team - TecHub</title>
+        <title>Xidmətlər</title>
       </Head>
       <Team />
     </>

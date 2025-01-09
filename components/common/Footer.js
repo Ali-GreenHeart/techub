@@ -22,22 +22,22 @@ const Footer = () => {
             <ul>
               <h3>Şirkət</h3>
               <li>
-                <Link href='/'>Haqqımızda</Link>
+                <Link href='/agency'>Haqqımızda</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href='/'>Komanda</Link>
+              </li> */}
+              <li>
+                <Link href='/showcase'>Faktlar</Link>
               </li>
               <li>
-                <Link href='/'>Faktlar</Link>
-              </li>
-              <li>
-                <Link href='/'>Bloq</Link>
+                <Link href='/blogs'>Bloq</Link>
               </li>
               {/* <li>
                 <Link href='/'>Demo design system</Link>
               </li> */}
               <li>
-                <Link href='/'>Əlaqə</Link>
+                <Link href='/contact'>Əlaqə</Link>
               </li>
             </ul>
             <ul>

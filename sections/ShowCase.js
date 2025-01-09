@@ -21,7 +21,7 @@ const ShowCase = () => {
             ))}
           </div>
           <div className='py btn'>
-            <button className='secondary-button'>View More</button>
+            {/* <button className='secondary-button'>View More</button> */}
           </div>
         </div>
       </section>

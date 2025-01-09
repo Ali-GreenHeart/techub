@@ -6,7 +6,7 @@ const services = () => {
   return (
     <>
       <Head>
-        <title>Team - TecHub</title>
+        <title>Xidmətlər</title>
       </Head>
       <Services />
     </>
