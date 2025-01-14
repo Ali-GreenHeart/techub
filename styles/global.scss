@@ -407,6 +407,9 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+  .hero-title {
+    font-size: 48px !important;
+  }
   .banner {
     .container {
       @include flex(center, none, column);
