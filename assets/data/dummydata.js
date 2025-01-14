@@ -14,35 +14,35 @@ export const home = [
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "100+ cuccessful cases in portfolio",
+    title: "50+ successful cases in portfolio",
   },
   {
     icon: <BiUser size={25} />,
-    title: "Customer satisfaction is our top priority",
+    title: "Customer satisfaction and success is our top priority",
   },
 ]
 export const expertise = [
   {
     id: 1,
-    title: "Veb sayt & Development",
+    title: "Web Development / CRM / ERP",
     cover: "../images/e1.jpg",
     desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
   },
   {
     id: 2,
-    title: "Mobil & ERP/CRM tətbiqi ",
+    title: "Mobile Apps",
     cover: "../images/e2.jpg",
     desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
   },
   {
     id: 3,
-    title: "SEO & IT həllər ",
+    title: "IT Consulting, SEO",
     cover: "../images/e3.jpg",
     desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
   },
   {
     id: 4,
-    title: "UI/UX Dizayn",
+    title: "UX/UI Design",
     cover: "../images/e4.jpg",
     desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
   },
@@ -67,7 +67,7 @@ export const testimonial = [
     name: "Staffy",
     cover: "../images/staffy.png",
     post: "Staffy LLC",
-    desc: "Əməkdaşlıq etmək çox xoş oldu. Mütəxəssis yanaşması və peşəkar dəstəyiniz sayəsində platformamız daha da inkişaf etdi. Saytımızın dizaynı və funksionallığı ilə bağlı təkliflər və həllər çox dəyərli oldu. Yüksək keyfiyyətli xidmətlərinizə və daim göstərdiyiniz dəstəyə görə təşəkkür edirik. Birlikdə işləmək bizə böyük fayda verdi və gələcəkdə yenə əməkdaşlıq etməyi səbirsizliklə gözləyirik!"
+    desc: "Əməkdaşlıq etmək çox xoş oldu. Mütəxəssis yanaşması və peşəkar dəstəyiniz sayəsində platformamız daha da inkişaf etdi. Saytımızın dizaynı və funksionallığı ilə bağlı təkliflər və həllər çox dəyərli oldu. Yüksək keyfiyyətli xidmətlərinizə və daim göstərdiyiniz dəstəyə görə təşəkkür edirik. Birlikdə işləmək bizə böyük fayda verdi və gələcəkdə yenə əməkdaşlıq etməyi səbrsizliklə gözləyirik!"
   },
   {
     id: 4,
@@ -80,14 +80,14 @@ export const testimonial = [
 export const showcase = [
   {
     id: 1,
-    title: "Neon Lights",
+    title: "Sup-easy for couriers",
     cover: "../images/s1.jpg",
-    catgeory: "DIGITAL MARKETING",
+    catgeory: "Web development",
   },
   {
     id: 2,
-    title: "Futuristic Furniture",
-    catgeory: "WEBSITES",
+    title: "Lacks of Udemy",
+    catgeory: "Web development",
     cover: "../images/s2.jpg",
   },
   {
@@ -151,9 +151,9 @@ export const blogdata = [
   },
   {
     id: 2,
-    title: "UI/UX dizayn nə üçün lazımdır ?",
+    title: "UX/UI dizayn nə üçün lazımdır ?",
     cover: "../images/b2.jpg",
-    catgeory: "UI/UX",
+    catgeory: "UX/UI",
     date: "YANVAR 8, 2025",
   },
   {
@@ -165,10 +165,17 @@ export const blogdata = [
   },
   {
     id: 4,
-    title: "2024 startap ideyaları",
+    title: "2025 startap ideyaları",
     cover: "../images/b4.jpg",
     catgeory: "STARTAP",
     date: "YANVAR 8, 2025",
+  },
+  {
+    id: 5,
+    title: "Özümüzə də veb-sayt ",
+    cover: "../images/b1.webp",
+    catgeory: "STARTAP",
+    date: "YANVAR 13, 2025",
   },
 ]
 export const teamdata = [

@@ -62,22 +62,29 @@ const Contact = () => {
                     <input type='text' />
                   </div>
                   <div className='inputs'>
-                    <span>Email*</span>
+                    <span>Email</span>
                     <input type='text' />
                   </div>
                 </div>
                 <div className='grid-2'>
                   <div className='inputs'>
-                    <span>Əlaqə nömrəsi*</span>
+                    <span>Əlaqə nömrəsi</span>
                     <input type='text' />
                   </div>
                   <div className='inputs'>
-                    <span>Proyetkin adı*</span>
-                    <input type='text' />
+                    <span>İstiqamət*</span>
+                    <select>
+                      <option value="">Web development</option>
+                      <option value="">Mobil tətbiqlər</option>
+                      <option value="">İT xidmətləri</option>
+                      <option value="">Konsultasiya</option>
+                      <option value="">UX/UI xidmətləri</option>
+                      <option value="">SEO</option>
+                    </select>
                   </div>
                 </div>
                 <div className='inputs'>
-                  <span>Proyekt haqqında ətraflı məlumat*</span>
+                  <span>Proyekt haqqında qısa məlumat*</span>
                   <textarea cols='30' rows='10'></textarea>
                 </div>
                 <button className='button-primary'>Göndər</button>

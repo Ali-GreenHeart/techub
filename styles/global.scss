@@ -31,16 +31,6 @@
   
     .titleSm {
       margin: 0 $xl-1;
-      animation: pulse 1.5s infinite;
-    
-      @keyframes pulse {
-        0%, 100% {
-          transform: scale(1);
-        }
-        50% {
-          transform: scale(1.1); // Böyüyüb kiçilmə
-        }
-      }
     }
     
   
@@ -92,29 +82,10 @@
 //banner
 .banner {
   margin-top: $xll-3;
-  opacity: 0;
-  animation: slideInScale 7.0s ease-out infinite; /* infinite - təkrarlanan animasiya */
-
-  @keyframes slideInScale {
-    0% {
-      opacity: 0;
-      transform: scale(0.8) translateX(-100px);  /* Başlanğıcda kiçik və sola doğru */
-    }
-    50% {
-      opacity: 1;
-      transform: scale(1) translateX(0);  /* Tam görünür və normal ölçüdə */
-    }
-    100% {
-      opacity: 0;
-      transform: scale(0.8) translateX(100px);  /* Sona doğru sola gedir və kiçilir */
-    }
-  }
-
   .container {
-    border-radius: 50px 0 50px 0;
+    border-radius: 50px 50px 0;
     padding: $xl-6;
-    background: rgb(192, 90, 255);
-    background: $gradient;
+    border: 4px solid rgb(192, 90, 255);
     @include flex(center, space-between, none);
   }
 }
@@ -154,16 +125,10 @@
       }
   
       .img-text {
-        margin-left: $xl-3;
-        opacity: 1;
-        transform: translateX(0); /* Sabit vəziyyətdə qalır */
-  
+        margin-left: $xl-3;  
         h3 {
           font-size: $xl-2;
           margin-bottom: $s;
-          opacity: 0;
-          transform: translateX(-30px); /* Başlanğıcda gizli və sola doğru */
-          animation: slideInOut 3s ease-in-out infinite alternate; /* Təkrarlanan animasiya */
         }
         
         span {
@@ -171,9 +136,6 @@
           text-transform: uppercase;
           font-size: $sm;
           letter-spacing: 3px;
-          opacity: 0;
-          transform: translateX(30px); /* Başlanğıcda gizli və sağa doğru */
-          animation: slideInOut 3s ease-in-out infinite alternate; /* Təkrarlanan animasiya */
         }
       }
     }
@@ -420,7 +382,7 @@ footer {
         text-transform: uppercase;
       }
       textarea,
-      input {
+      input, select {
         width: 100%;
         background-color: $white;
         padding: 15px;

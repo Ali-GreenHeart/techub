@@ -27,8 +27,8 @@ const Hero = () => {
       <section className='hero-sec'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='The last digital agency you ll ever need' />
-            <p>Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac volutpat nunc. Nulla facilisi. Pellentesque tempus tellusut magna porttitor scelerisque.</p>
+            <Title title='The last digital agency you will ever need' />
+            <p>We are the last digital agency you'll ever need, offering innovative solutions tailored to your unique business needs. Our team of experts combines cutting-edge technology with creative strategies to deliver exceptional results.</p>
           </div>
           <div className='hero-content grid-4'>
             {home.map((item, i) => (
@@ -48,7 +48,7 @@ const Hero = () => {
       <Brand />
 
       <div className='text-center'>
-        <Title title='Ən son xəbərlər və məqalələr' />
+        <Title title='Last news and blogs' />
       </div>
       <BlogCard />
     </>

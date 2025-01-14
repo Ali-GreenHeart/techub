@@ -11,7 +11,7 @@ const Banner = () => {
             <TitleLogo title='Biznesinizin inkişafında yeni zirvələrə çatdıracağıq!' />
           </div>
           <div>
-            <button className='button-primary'>Bizə müraciət edin</button>
+            <a href="/contact" className='button-primary'>Bizə müraciət edin</a>
           </div>
         </div>
       </section>

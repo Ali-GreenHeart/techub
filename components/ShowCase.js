@@ -11,15 +11,15 @@ const ShowCase = () => {
       <section className='showcase'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='Rastlaşdığımız stiuasiyalar' />
+            <Title title='Fixed issues✔' />
           </div>
           <div className='hero-content grid-3 py'>
             {showcase.map((item) => (
-              <Card data={item} key={item.id} />
+              <Card path="cases" data={item} key={item.id} />
             ))}
           </div>
           <div className='card links'>
-       
+
           </div>
         </div>
       </section>

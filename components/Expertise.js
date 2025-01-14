@@ -9,15 +9,12 @@ const Expertise = () => {
       <section className='expertise'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='Bizim təcrübəmiz ' />
-            <p>Peşəkar komandamızla veb dizayn, veb sayt hazırlanması, İT xidmətləri, mobil tətbiqlər
-               və konsultasiya sahəsində yüksək keyfiyyətli həllər təqdim edirik. Müasir texnologiyalar
-                və yenilikçi yanaşmamızla biznesinizi inkişaf etdirməyə dəstək oluruq. Sizin üçün unikal və 
-                effektiv həllər yaradırıq!</p>
+            <Title title='Expertise' />
+            <p>We offer expert solutions in web development, mobile apps, ERP/CRM systems, SEO, and UX/UI design to elevate your digital presence. Our team works closely with you to create customized strategies that drive results and ensure long-term business success.</p>
           </div>
           <div className='hero-content grid-4'>
             {expertise.map((item) => (
-              <Card data={item} key={item.id} caption='Ətraflı' />
+              <Card data={item} key={item.id} />
             ))}
           </div>
         </div>
