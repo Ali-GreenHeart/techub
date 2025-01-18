@@ -44,9 +44,9 @@ const Header = () => {
             <Link href='/contact' className={activeLink == "/contact" ? "activeLink" : "none"}>
               Əlaqə
             </Link>
-            <button className='button-primary'>Have an idea?</button>
+            <Link href="/contact" className='button-primary'>Bizə yazın</Link>
           </nav>
-          <button onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}</button>
+          <button className="burger-menu-button" onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}</button>
         </div>
       </header>
     </>

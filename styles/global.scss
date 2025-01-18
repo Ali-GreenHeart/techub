@@ -407,8 +407,13 @@ footer {
     }
   }
 }
-
+.burger-menu-button{
+  display: none;
+}
 @media screen and (max-width: 800px) {
+  .burger-menu-button{
+    display: block;
+  }
   .hero-title {
     font-size: 48px !important;
   }
