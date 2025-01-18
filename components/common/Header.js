@@ -20,8 +20,8 @@ const Header = () => {
       <header>
         <div className='container'>
           <div className='logo'>
-            <Link href='/'>
-              <img style={{ width: 100 }} src={`/images/logo-${theme}.svg`} alt="" /> {/* Update logo based on theme */}
+            <Link href='/' className="logo-link-logo">
+              <img style={{ width: 100 }} src={`/images/logo-${theme}.svg`} alt="techub logo" /> {/* Update logo based on theme */}
             </Link>
           </div>
           <nav className={open ? `openMenu openMenu-${theme}` : "closeMenu"} onClick={() => setOpen(null)}>
