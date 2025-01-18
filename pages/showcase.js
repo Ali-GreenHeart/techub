@@ -1,4 +1,4 @@
-import { ShowCase } from "@/sections"
+import ShowCase from "@/components/ShowCase"
 import Head from "next/head"
 import React from "react"
 
@@ -6,7 +6,7 @@ const showcase = () => {
   return (
     <>
       <Head>
-        <title>Faktlar</title>
+        <title>Həll edilmişlər ✔</title>
       </Head>
       <ShowCase />
     </>

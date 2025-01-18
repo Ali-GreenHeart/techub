@@ -275,7 +275,8 @@ footer {
     }
   }
   .connect {
-    @include flex(center, space-between, none);
+    @include flex(center, flex-start, none);
+    gap: 10px;
     span {
       font-size: $sm;
       letter-spacing: 2px;
@@ -346,7 +347,8 @@ footer {
   .left {
     padding-right: 60px;
     ul {
-      @include flex(center, space-between, none);
+      @include flex(center, flex-start, none);
+      gap: 10px;
       margin-top: $xll;
     }
     .icon {

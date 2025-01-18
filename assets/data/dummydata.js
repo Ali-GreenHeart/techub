@@ -6,45 +6,45 @@ import { BiUser } from "react-icons/bi"
 export const home = [
   {
     icon: <AiOutlineCalendar size={25} />,
-    title: "10+ years of market experience",
+    title: "10+ illik bazar təcrübəsi",
   },
   {
     icon: <TfiRulerPencil size={25} />,
-    title: "Unique technologies & modern approach ",
+    title: "Unikal texnologiyalar və müasir yanaşma",
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "50+ successful cases in portfolio",
+    title: "50+ uğurlu layihə portfoliomuzda",
   },
   {
     icon: <BiUser size={25} />,
-    title: "Customer satisfaction and success is our top priority",
+    title: "Müştəri məmnuniyyəti və uğuru bizim prioritetimizdir",
   },
 ]
 export const expertise = [
   {
     id: 1,
-    title: "Web Development / CRM / ERP",
+    title: "Veb proqram təminatı",
     cover: "../images/e1.jpg",
-    desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
+    desc: [{ text: "Veb dizaynı" }, { text: "Veb inkişafı" }, { text: "Xüsusi ikonalar və illüstrasiyalar" }, { text: "Hosting" }, { text: "Veb sayt auditı" }],
   },
   {
     id: 2,
-    title: "Mobile Apps",
+    title: "Mobil Tətbiqlər",
     cover: "../images/e2.jpg",
-    desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
+    desc: [{ text: "Sosial media marketinqi" }, { text: "Marketinq kampaniyaları" }, { text: "Marketinq idarəetməsi" }, { text: "SEO" }],
   },
   {
     id: 3,
-    title: "IT Consulting, SEO",
+    title: "İT xidmətləri",
     cover: "../images/e3.jpg",
-    desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
+    desc: [{ text: "E-Ticarət veb sayt dizaynı" }, { text: "WooCommerce" }, { text: "Məzmun idarəetməsi" }, { text: "Hosting" }],
   },
   {
     id: 4,
-    title: "UX/UI Design",
+    title: "UX/UI Dizaynı",
     cover: "../images/e4.jpg",
-    desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
+    desc: [{ text: "Vizual identifikasiya" }, { text: "Sosial media üçün brendinq" }, { text: "Xüsusi illüstrasiyalar" }],
   },
 ]
 export const testimonial = [
@@ -80,39 +80,39 @@ export const testimonial = [
 export const showcase = [
   {
     id: 1,
-    title: "Sup-easy for couriers",
+    title: "Kuryerlər üçün çox asan",
     cover: "../images/s1.jpg",
-    catgeory: "Web development",
+    catgeory: "Veb inkişafı",
   },
   {
     id: 2,
-    title: "Lacks of Udemy",
-    catgeory: "Web development",
+    title: "Udemydə çatışmazlıqlar",
+    catgeory: "Veb inkişafı",
     cover: "../images/s2.jpg",
   },
   {
     id: 3,
-    title: "Smart Living",
+    title: "Ağıllı yaşayış",
     cover: "../images/s3.jpg",
-    catgeory: "WEBSITES",
+    catgeory: "VEB SAYTLAR",
   },
   {
     id: 4,
-    title: "Light Painting",
+    title: "Parlaq ideya",
     cover: "../images/s4.jpg",
-    catgeory: "BRANDING	",
+    catgeory: "BRANDING",
   },
   {
     id: 5,
-    title: "Ideabox",
+    title: "İdeya-boxçası",
     cover: "../images/s5.jpg",
-    catgeory: "BRANDING	",
+    catgeory: "BRANDING",
   },
   {
-    id: 5,
-    title: "VR Experience",
+    id: 6,
+    title: "VR Təcrübəsi",
     cover: "../images/s6.jpg",
-    catgeory: "WEBSITES	",
+    catgeory: "VEB SAYTLAR",
   },
 ]
 export const brand = [
@@ -144,14 +144,14 @@ export const brand = [
 export const blogdata = [
   {
     id: 1,
-    title: "IT Konsaltinqin Faydaları ",
+    title: "İT Konsaltinqin Faydaları",
     cover: "../images/b1.webp",
     catgeory: "İT",
     date: "YANVAR 7, 2025",
   },
   {
     id: 2,
-    title: "UX/UI dizayn nə üçün lazımdır ?",
+    title: "UX/UI dizayn nə üçün lazımdır?",
     cover: "../images/b2.jpg",
     catgeory: "UX/UI",
     date: "YANVAR 8, 2025",
@@ -172,7 +172,7 @@ export const blogdata = [
   },
   {
     id: 5,
-    title: "Özümüzə də veb-sayt ",
+    title: "Özümüzə də veb-sayt",
     cover: "../images/b1.webp",
     catgeory: "STARTAP",
     date: "YANVAR 13, 2025",
@@ -183,47 +183,47 @@ export const teamdata = [
     id: 1,
     title: "Alexander Black",
     cover: "../images/t1.jpg",
-    post: "FOUNDER, CEO",
+    post: "TƏŞƏBBÜSÇÜ, CEO",
   },
   {
     id: 2,
     title: "Anna Kovalenko",
     cover: "../images/t2.jpg",
-    post: "FINANCE DIRECTOR",
+    post: "MALİYYƏ DIREKTORU",
   },
   {
     id: 3,
     title: "Tiffany White",
     cover: "../images/t3.jpg",
-    post: "CREATIVE DIRECTOR",
+    post: "YARADICI DIREKTOR",
   },
   {
     id: 4,
     title: "Richard Greenwood",
     cover: "../images/t4.jpg",
-    post: "PROGRAMMER",
+    post: "PROQRAMÇI",
   },
   {
     id: 5,
     title: "Jessica Brown",
     cover: "../images/t5.jpg",
-    post: "MARKETING DIRECTOR",
+    post: "MARKETİNQ DIREKTORU",
   },
   {
     id: 6,
     title: "Gregory Windstorm",
     cover: "../images/t6.jpg",
-    post: "ACCOUNTING MANAGER",
+    post: "HESABLAMA MENECERI",
   },
   {
     id: 7,
     title: "Anna Red",
     cover: "../images/t7.jpg",
-    post: "PROJECT MANAGER",
+    post: "LAYİHƏ MENECERI",
   },
   {
     id: 8,
-    title: "Join our team!",
+    title: "Komandamıza qoşulun!",
     cover: "../images/t8.jpg",
     post: "",
   },

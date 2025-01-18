@@ -1,9 +1,8 @@
-import { blogdata, showcase } from "@/assets/data/dummydata"
+import { showcase } from "@/assets/data/dummydata"
 import Banner from "@/components/Banner"
 import { Title, TitleSm } from "@/components/common/Title"
 import Head from "next/head"
 import { useRouter } from "next/router"
-import React from "react"
 
 const SinglePost = () => {
   const router = useRouter()

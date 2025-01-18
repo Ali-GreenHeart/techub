@@ -15,20 +15,20 @@ const Hero = () => {
           <h1 className='hero-title'>Rəqəmsal gələcəyinizi bizimlə qurun</h1>
 
           <div className='sub-heading'>
-            <TitleSm title='Veb saytlar' /> <span>.</span>
+            <TitleSm title='Veb proqram təminatı' /> <span>.</span>
             <TitleSm title='Mobil tətbiqlər' /> <span>.</span>
             <TitleSm title='İT xidmətləri' /><span>.</span>
-            <TitleSm title='Konsultasiya' /><span>.</span>
-            <TitleSm title='UX/UI xidmətləri' /><span>.</span>
-            <TitleSm title='SEO' />
+            <TitleSm title='UX/UI dizayn' /><span>.</span>
+            <TitleSm title='AI həllər' /><span>.</span>
+            <TitleSm title='PM xidmət' />
           </div>
         </div>
       </section>
       <section className='hero-sec'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='The last digital agency you will ever need' />
-            <p>We are the last digital agency you'll ever need, offering innovative solutions tailored to your unique business needs. Our team of experts combines cutting-edge technology with creative strategies to deliver exceptional results.</p>
+            <Title title='Ən son rəqəmsal agentlik' />
+            <p>Biz ən son rəqəmsal agentliyik, biznesinizin unikal tələblərinə uyğun innovativ həllər təklif edirik. Mütəxəssislərdən ibarət komandamız, qabaqcıl texnologiyanı və yaradıcı strategiyaları birləşdirərək mükəmməl nəticələr təqdim edir.</p>
           </div>
           <div className='hero-content grid-4'>
             {home.map((item, i) => (
@@ -48,7 +48,7 @@ const Hero = () => {
       <Brand />
 
       <div className='text-center'>
-        <Title title='Last news and blogs' />
+        <Title title='Son xəbərlər və bloglar' />
       </div>
       <BlogCard />
     </>

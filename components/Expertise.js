@@ -9,8 +9,8 @@ const Expertise = () => {
       <section className='expertise'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='Expertise' />
-            <p>We offer expert solutions in web development, mobile apps, ERP/CRM systems, SEO, and UX/UI design to elevate your digital presence. Our team works closely with you to create customized strategies that drive results and ensure long-term business success.</p>
+            <Title title='Peşəkar Yanaşmalar' />
+            <p>Biz təqdim etdiyimiz sahələrdə peşəkarıq, peşəkar olduğumuz sahələri də təqdim edirik. Komandamız sizinlə sıx əməkdaşlıq edərək, mükəmməl nəticələr əldə edən və uzunmüddətli biznes uğuru təmin edən özəl strategiyalar yaradır.</p>
           </div>
           <div className='hero-content grid-4'>
             {expertise.map((item) => (

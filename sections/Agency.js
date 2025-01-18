@@ -9,20 +9,19 @@ const Agency = () => {
       <section className='agency bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='Haqqımızda' /> <br />
+            <Title title='Haqqımızda' /> <br />
             <br />
-            <Title title='Yaradıcılıq, strategiya və texnologiyanın mükəmməl harmoniyası!' className='title-bg' />
+            <TitleSm title='Yaradıcılıq, strategiya və texnologiyanın mükəmməl harmoniyası!' className='title-bg' />
           </div>
 
           <div className='content flex1'>
             <div className='left w-60 py'>
               <TitleSm title='2014-cü ildən texnologiyada fərq yaratmış təcrübəli tərəfdaşınız!' />
-              <p className='desc-p'>Biz, müştərilərimizin biznesini onlayn mühitdə irəli aparmaq üçün ixtisaslaşmış 7 illik təcrübəyə sahib bir xidmət şirkətiyik. Veb dizayn, müasir və funksional saytların hazırlanması, inkişaf etdirilməsi (development), İT xidmətləri, mobil tətbiqlərin yaradılması və biznes konsultasiya sahəsində fərqlənirik. Peşəkar komandamız hər bir layihəni unikal yanaşma ilə həyata keçirir, müştərilərimizin məqsədlərinə ən optimal həllər təqdim edirik. Bizimlə çalışaraq, rəqəmsal dünyada uğurlarınıza daha da yaxınlaşa bilərsiniz!
-                "Uğur üçün birgə addımlayaq!"
-              </p>
+              <p className='desc-p'>Biz, müştərilərimizin biznesini onlayn mühitdə irəli aparmaq üçün ixtisaslaşmış 10 ildən artıq təcrübəyə sahib bir xidmət şirkətiyik. Veb dizayn, müasir və funksional saytların hazırlanması, inkişaf etdirilməsi (development), İT xidmətləri, mobil tətbiqlərin yaradılması və biznes konsultasiya sahəsində fərqlənirik. Peşəkar komandamız hər bir layihəni unikal yanaşma ilə həyata keçirir, müştərilərimizin məqsədlərinə ən optimal həllər təqdim edirik. Bizimlə çalışaraq, rəqəmsal dünyada uğurlarınıza daha da yaxınlaşa bilərsiniz!</p>
+              <Title title="Uğur üçün birgə addımlayaq!" />
               <div className='grid-3'>
                 <div className='box'>
-                  <h1 className='indigo'>7+</h1>
+                  <h1 className='indigo'>10+</h1>
                   <h3>Təcrübə</h3>
                 </div>
                 <div className='box'>

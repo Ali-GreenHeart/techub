@@ -1,9 +1,6 @@
-import React from "react"
-import { Title } from "./common/Title"
 import { showcase } from "@/assets/data/dummydata"
 import { Card } from "./common/Card"
-import Link from "next/link"
-import { HiOutlineArrowRight } from "react-icons/hi"
+import { Title } from "./common/Title"
 
 const ShowCase = () => {
   return (
@@ -11,7 +8,7 @@ const ShowCase = () => {
       <section className='showcase'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='Fixed issues✔' />
+            <Title title='Həll edilmişlər ✔' />
           </div>
           <div className='hero-content grid-3 py'>
             {showcase.map((item) => (

@@ -57,7 +57,7 @@ const Footer = () => {
             </ul>
             <ul>
               <h3>Sosial şəbəkələrdə izləyin</h3>
-              <div className='connect'>
+              <ul className='connect'>
                 <li>
                   <Link href='/'>
                     <BsFacebook size={25} />
@@ -73,7 +73,7 @@ const Footer = () => {
                     <AiFillLinkedin size={25} />
                   </Link>
                 </li>
-              </div>
+              </ul>
             </ul>
           </div>
           <div className='legal connect py'>
