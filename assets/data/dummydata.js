@@ -72,7 +72,7 @@ export const testimonial = [
   {
     id: 4,
     name: "Lucebra",
-    cover: "../images/Lucebra.png",
+    cover: "../images/lucebra.png",
     post: "Lucebra LLC",
     desc: "Veb saytımız sayəsində müştərilərimizə daha rahat xidmət göstərməyə başladıq. Komanda hər bir detalı diqqətlə işləyib, işlərini vaxtında təhvil verdi. Peşəkarlıqlarına söz ola bilməz! Artıq mobil tətbiqimizi də güvənilir şəkildə komandaya həvalə etmişik. Uğurlar!",
   },
