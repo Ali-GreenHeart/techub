@@ -42,12 +42,12 @@
   background-color: $green;
   font-size: $md;
   border-radius: 50px;
-  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); // Parlayan kölgə effekti
+  box-shadow: 0 0 10px rgba($green, 0.5);
   cursor: pointer;
   transition: box-shadow 0.3s ease-in-out;
 
   &:hover {
-    box-shadow: 0 0 20px rgba(0, 255, 0, 0.7); // Hover zamanı parlaqlığı artırır
+    box-shadow: 0 0 20px rgba($green, 0.8); // Hover zamanı parlaqlığı artırır
   }
 }
 

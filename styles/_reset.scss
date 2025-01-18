@@ -3,11 +3,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: inherit !important;
 }
 body {
   font-family: "Poppins", sans-serif;
-  background-color: $dark;
-  color: $white;
+  background-color: $white;
+  color: $dark;
+}
+.dark-mode-body{
+  color: $white !important;
+  background-color: $dark !important;
 }
 .container {
   max-width: 90%;

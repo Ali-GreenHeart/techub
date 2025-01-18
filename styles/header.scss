@@ -3,7 +3,7 @@ header {
   border-bottom: 1px solid rgba($white, 0.2);
   position: sticky;
   top: 0;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px) contrast(0.7);
   z-index: 999;
   .container {
     @include flex(center, space-between, none);
@@ -40,7 +40,6 @@ header {
       width: 100%;
       height: 40vh;
       padding: 20px;
-      background: $dark;
       display: flex;
       flex-direction: column;
       z-index: 999;
@@ -51,6 +50,17 @@ header {
         margin-bottom: 30px !important;
       }
     }
+    .openMenu-light {
+      background-color: $white !important;
+      color: $dark !important;
+      border-top: 1px solid $dark;
+    }
+    .openMenu-dark {
+      background-color: $dark !important;
+      color: $white !important;
+      border-top: 1px solid $white;
+    }
+
     .button-primary {
       display: none;
     }

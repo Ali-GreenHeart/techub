@@ -16,7 +16,7 @@ const Hero = () => {
 
           <div className='sub-heading'>
             <TitleSm title='Veb proqram təminatı' /> <span>.</span>
-            <TitleSm title='Mobil tətbiqlər' /> <span>.</span>
+            <TitleSm title='Mobil tətbiqlər' /> <span>.</span> <span>.</span>
             <TitleSm title='İT xidmətləri' /><span>.</span>
             <TitleSm title='UX/UI dizayn' /><span>.</span>
             <TitleSm title='AI həllər' /><span>.</span>
