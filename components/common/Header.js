@@ -38,7 +38,7 @@ const Header = () => {
               Xidmətlər
             </Link>
             <Link href='/showcase' className={activeLink == "/showcase" ? "activeLink" : "none"}>
-              Faktlar
+              Nüanslar
             </Link>
             <Link href='/blogs' className={activeLink == "/blogs" ? "activeLink" : "none"}>
               Bloq

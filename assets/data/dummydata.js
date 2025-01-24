@@ -159,26 +159,32 @@ export const brand = [
   {
     id: 1,
     cover: "../images/lucebra.png",
+    name: "Lucebra"
   },
   {
     id: 2,
     cover: "../images/lupaz.png",
+    name: "Lupaz"
   },
   {
     id: 3,
     cover: "../images/staffy.png",
+    name: "Staffy"
   },
   {
     id: 4,
     cover: "../images/sunroomy.png",
+    name: "Sunroomy"
   },
   {
     id: 5,
     cover: "../images/jet.png",
+    name: "JET Academy"
   },
   {
     id: 6,
     cover: "../images/jets.png",
+    name: "JET School"
   }
 ]
 

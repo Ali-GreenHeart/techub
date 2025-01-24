@@ -35,13 +35,13 @@ const Agency = () => {
               </div>
             </div>
             <div className='right w-40 ml'>
-              <img src='/images/s1.jpg' alt='Img' className='round' width='100%' height='100%' />
+              <img src='/images/b1.jpg' alt='Img' className='round' width='100%' height='100%' />
             </div>
           </div>
 
           <div className='content flex flex-column-sm'>
             <div className='left w-40 py'>
-              <img src='/images/s4.jpg' alt='Img' className='round' width='100%' height='100%' />
+              <img src='/images/b3.jpg' alt='Img' className='round' width='100%' height='100%' />
             </div>
             <div className='right w-60 ml'>
               <TitleSm title='Bizim missiyamız' />

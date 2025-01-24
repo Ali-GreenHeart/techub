@@ -12,8 +12,9 @@ const Brand = () => {
           </div>
           <div className='brand-content grid-6 py'>
             {brand.map((item) => (
-              <div className='images' key={item.id}>
-                <img src={item.cover} alt={item.id} width='100px' height='100px' />
+              <div className='images' key={item.id} style={{ textAlign: 'center' }}>
+                <img src={item.cover} alt={item.id} width='100px' height='100px' style={{ borderRadius: "50%", objectFit: 'cover' }} />
+                <p>{item.name}</p>
               </div>
             ))}
           </div>

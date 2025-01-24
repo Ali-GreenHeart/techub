@@ -10,9 +10,9 @@ const Blog = () => {
       <section className='agency bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='BLOG' /> <br />
+            <TitleSm title='Bloq' /> <br />
             <br />
-            <Title title='Our views on marketing, design & technology' />
+            <Title title='Marketinq, dizayn və texnologiya haqqında fikirlərimiz' />
           </div>
           <BlogCard />
         </div>

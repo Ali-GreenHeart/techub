@@ -28,7 +28,7 @@ const Footer = () => {
                 <Link href='/'>Komanda</Link>
               </li> */}
               <li>
-                <Link href='/showcase'>Faktlar</Link>
+                <Link href='/showcase'>Nüanslar</Link>
               </li>
               <li>
                 <Link href='/blogs'>Bloq</Link>
