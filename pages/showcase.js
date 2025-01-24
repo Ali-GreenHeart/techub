@@ -6,7 +6,7 @@ const showcase = () => {
   return (
     <>
       <Head>
-        <title>Həll edilmişlər ✔</title>
+        <title>Maraqlı nüanslar</title>
       </Head>
       <ShowCase />
     </>

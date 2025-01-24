@@ -14,7 +14,7 @@ const Agency = () => {
             <TitleSm title='Yaradıcılıq, strategiya və texnologiyanın mükəmməl harmoniyası!' className='title-bg' />
           </div>
 
-          <div className='content flex1'>
+          <div className='content flex flex-column-sm'>
             <div className='left w-60 py'>
               <TitleSm title='2014-cü ildən texnologiyada fərq yaratmış təcrübəli tərəfdaşınız!' />
               <p className='desc-p'>Biz, müştərilərimizin biznesini onlayn mühitdə irəli aparmaq üçün ixtisaslaşmış 10 ildən artıq təcrübəyə sahib bir xidmət şirkətiyik. Veb dizayn, müasir və funksional saytların hazırlanması, inkişaf etdirilməsi (development), İT xidmətləri, mobil tətbiqlərin yaradılması və biznes konsultasiya sahəsində fərqlənirik. Peşəkar komandamız hər bir layihəni unikal yanaşma ilə həyata keçirir, müştərilərimizin məqsədlərinə ən optimal həllər təqdim edirik. Bizimlə çalışaraq, rəqəmsal dünyada uğurlarınıza daha da yaxınlaşa bilərsiniz!</p>
@@ -39,7 +39,7 @@ const Agency = () => {
             </div>
           </div>
 
-          <div className='content flex'>
+          <div className='content flex flex-column-sm'>
             <div className='left w-40 py'>
               <img src='/images/s4.jpg' alt='Img' className='round' width='100%' height='100%' />
             </div>

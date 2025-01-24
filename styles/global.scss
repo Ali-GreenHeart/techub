@@ -446,7 +446,8 @@ footer {
       flex-direction: column;
     }
     .grid-3 {
-      @include grid(repeat(3, 1fr), 50px);
+      @include grid(repeat(1, 1fr), 50px);
+      justify-items: center;
     }
   }
   .contact {
@@ -494,3 +495,4 @@ footer {
     position: relative;
     top: 5px;
 }
+
