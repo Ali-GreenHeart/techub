@@ -169,14 +169,7 @@ export const blogdata = [
     cover: "../images/b4.jpg",
     catgeory: "STARTAP",
     date: "YANVAR 8, 2025",
-  },
-  {
-    id: 5,
-    title: "Özümüzə də veb-sayt",
-    cover: "../images/b1.webp",
-    catgeory: "STARTAP",
-    date: "YANVAR 13, 2025",
-  },
+  }
 ]
 export const teamdata = [
   {
