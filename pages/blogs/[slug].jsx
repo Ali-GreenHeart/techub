@@ -4,10 +4,14 @@ import { Title } from "@/components/common/Title"
 import Head from "next/head"
 import { useRouter } from "next/router"
 
-const SinglePost = () => {
+const SingleBlog = () => {
   const router = useRouter()
   const { slug } = router.query
   const post = blogdata.find((post) => post?.slug === slug)
+
+  if (!post) {
+    return <div>Loading...</div> // Add a loading state or a fallback
+  }
 
   return (
     <>
@@ -34,4 +38,4 @@ const SinglePost = () => {
   )
 }
 
-export default SinglePost
+export default SingleBlog
